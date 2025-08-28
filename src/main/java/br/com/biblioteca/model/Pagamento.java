@@ -15,7 +15,7 @@ public class Pagamento {
 
     public Pagamento(Multa multaSelecionada, String statusPagamento, String dataPagamento) {
         this.multaSelecionada = multaSelecionada;
-        this.valor = multaSelecionada.getValor(); // agora pode acessar!
+        this.valor = multaSelecionada.getValor(); 
         this.formaPagamento = multaSelecionada.getFormaPagamento();
         this.statusPagamento = statusPagamento;
         this.dataPagamento = dataPagamento;
